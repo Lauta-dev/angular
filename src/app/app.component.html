@@ -1,0 +1,10 @@
+<h1>Si PAAA AGUENTE ANGULAR</h1>
+
+<div [ngSwitch]="loginType">
+  <div *ngSwitchCase="'user'">User</div>
+  <div *ngSwitchCase="'admin'"><app-rooms></app-rooms></div>
+  <h2 *ngSwitchDefault>
+    default
+  </h2>
+</div>
+

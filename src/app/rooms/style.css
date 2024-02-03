@@ -1,0 +1,20 @@
+* {
+}
+
+span {
+  color: red;
+  background-color: #fff;
+  padding: .5rem;
+}
+
+.even {
+  background-color: #9C9C9C;
+  color: #000;  
+}
+
+.odd {
+  background-color: #fff;
+  color: #000;  
+}
+
+
